@@ -1,0 +1,75 @@
+PROMP:
+
+Title: Generate a CSV File with Simulated Recruitment Data for ETL Processing
+
+Description:
+
+I need a CSV file that simulates candidate data collected from a recruitment form for a Data Engineer position. This file will be used as input for an ETL pipeline, so the data must intentionally contain inconsistencies, lack of standardization, and common real-world data quality issues, as if it were filled out by different people.
+
+The CSV file must contain 40 rows, each representing a different candidate. All candidates must be 24 years old or older and must be located in Brazil. Prefer Brazilian state capitals with different states, but repetitions are allowed.
+
+The dataset should include the following columns:
+
+CPF
+Random Brazilian CPF numbers. They do not need to be valid, only realistic in format. Use different formats, with and without dots and hyphens.
+
+Name
+Random first name and last name. Allow mixed capitalization and minor inconsistencies.
+
+Gender
+Values should be Male or Female.
+
+Email
+Random email addresses, preferably using firstname.lastname@gmail.com
+or firstname.lastname@hotmail.com
+. Allow small inconsistencies such as uppercase letters or missing dots.
+
+LinkedIn
+Random LinkedIn profile URLs using the format https://www.linkedin.com/in/firstname.lastname
+. Variations such as hyphens, uppercase letters, or missing dots are allowed.
+
+DateOfBirth
+Random dates. All candidates must be older than 24 years.
+
+Location
+Brazilian cities, preferably state capitals. Use different formats such as “São Paulo - SP”, “Rio de Janeiro/RJ”, or “Belo Horizonte MG”.
+
+YearsOfExperience
+Numeric values representing professional experience. Allow inconsistencies such as integers, decimals, or text values like “five years”.
+
+CurrentRole
+Random job titles related to the technology field, such as Data Engineer, Data Analyst, Software Engineer, BI Analyst, or Backend Developer.
+
+SalaryExpectation
+Values between 6,000 and 12,000 BRL. Use intentionally inconsistent formats, for example:
+8000
+8.500
+R$ 9000 CLT
+10000 PJ
+12k
+7000 - PJ
+
+Python
+Values: Basic, Intermediate, or Advanced.
+
+SQL
+Values: Basic, Intermediate, or Advanced.
+
+Cloud
+Values: Basic, Intermediate, or Advanced.
+
+Databricks
+Values: Basic, Intermediate, or Advanced.
+
+API
+Values: Basic, Intermediate, or Advanced.
+
+English
+Values: Basic, Intermediate, or Advanced.
+
+Output requirements:
+
+The output must be a CSV file only.
+Use commas as delimiters.
+Column headers must match the column names described above.
+Do not include explanations, comments, or additional text. Only output the CSV content.
